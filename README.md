@@ -104,16 +104,6 @@ npm run dev
 
 ---
 
-## 🔑 Demo Accounts (Seeded)
-
-| Role       | Email                                                       | Password       |
-| ---------- | ----------------------------------------------------------- | -------------- |
-| Admin      | [admin@skilllink.dev](mailto:admin@skilllink.dev)           | Admin123!      |
-| Client     | [client@skilllink.dev](mailto:client@skilllink.dev)         | Client123!     |
-| Freelancer | [freelancer@skilllink.dev](mailto:freelancer@skilllink.dev) | Freelancer123! |
-
----
-
 ## 🏗 Project Structure
 
 ```
@@ -185,5 +175,5 @@ MIT License
 
 ---
 
-👉 Do you want me to also clean up and make a **frontend-only README** (so both repos look consistent and professional), or just backend for now?
+Would you also like me to **write the frontend `README.md`** now (to match style with this backend one) so both repos look consistent when you push?
 ```

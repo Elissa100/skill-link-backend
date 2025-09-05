@@ -175,5 +175,3 @@ MIT License
 
 ---
 
-Would you also like me to **write the frontend `README.md`** now (to match style with this backend one) so both repos look consistent when you push?
-```

@@ -1,0 +1,165 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider          = "postgresql"
+  url               = env("DATABASE_URL")
+  shadowDatabaseUrl = env("SHADOW_DATABASE_URL")
+}
+
+model User {
+  id                 String          @id @default(cuid())
+  email              String          @unique
+  password           String
+  role               Role            @default(FREELANCER)
+  name               String
+  bio                String?
+  skills             Json?
+  portfolioLinks     Json?
+  emailVerifiedAt    DateTime?       // null until user verifies email
+  verificationCode   String?         // 6-digit code
+  verificationExpiry DateTime?       // code expiry
+
+  createdAt          DateTime        @default(now())
+  updatedAt          DateTime        @updatedAt
+
+  // Relations
+  clientTasks        Task[]          @relation("ClientTasks")
+  bids               Bid[]
+  sentMessages       Message[]       @relation("SentMessages")
+  notifications      Notification[]
+
+  @@map("users")
+}
+
+model Task {
+  id          String     @id @default(cuid())
+  title       String
+  description String
+  budget      Float
+  deadline    DateTime
+  status      TaskStatus @default(OPEN)
+  clientId    String
+  attachments Json?
+
+  createdAt   DateTime   @default(now())
+  updatedAt   DateTime   @updatedAt
+
+  // Relations
+  client      User       @relation("ClientTasks", fields: [clientId], references: [id], onDelete: Cascade)
+  bids        Bid[]
+  milestones  Milestone[]
+  messages    Message[]
+  payments    Payment[]
+
+  @@map("tasks")
+}
+
+model Bid {
+  id           String   @id @default(cuid())
+  proposal     String
+  amount       Float
+  timeline     String
+  freelancerId String
+  taskId       String
+  createdAt    DateTime @default(now())
+
+  // Relations
+  freelancer   User     @relation(fields: [freelancerId], references: [id], onDelete: Cascade)
+  task         Task     @relation(fields: [taskId], references: [id], onDelete: Cascade)
+
+  @@unique([freelancerId, taskId])
+  @@map("bids")
+}
+
+model Milestone {
+  id          String          @id @default(cuid())
+  taskId      String
+  description String
+  dueDate     DateTime
+  amount      Float
+  status      MilestoneStatus @default(PENDING)
+  createdAt   DateTime        @default(now())
+  updatedAt   DateTime        @updatedAt
+
+  // Relations
+  task        Task       @relation(fields: [taskId], references: [id], onDelete: Cascade)
+  payments    Payment[]
+
+  @@map("milestones")
+}
+
+model Message {
+  id        String    @id @default(cuid())
+  content   String
+  senderId  String
+  taskId    String
+  readAt    DateTime?
+  createdAt DateTime  @default(now())
+
+  // Relations
+  sender    User      @relation("SentMessages", fields: [senderId], references: [id], onDelete: Cascade)
+  task      Task      @relation(fields: [taskId], references: [id], onDelete: Cascade)
+
+  @@map("messages")
+}
+
+model Payment {
+  id                    String        @id @default(cuid())
+  taskId                String
+  milestoneId           String?
+  amount                Float
+  status                PaymentStatus @default(PENDING)
+  stripePaymentIntentId String?
+  createdAt             DateTime      @default(now())
+  updatedAt             DateTime      @updatedAt
+
+  // Relations
+  task      Task       @relation(fields: [taskId], references: [id], onDelete: Cascade)
+  milestone Milestone? @relation(fields: [milestoneId], references: [id], onDelete: SetNull)
+
+  @@map("payments")
+}
+
+model Notification {
+  id        String   @id @default(cuid())
+  userId    String
+  type      String
+  payload   Json
+  readAt    DateTime?
+  createdAt DateTime @default(now())
+
+  // Relations
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("notifications")
+}
+
+enum Role {
+  ADMIN
+  CLIENT
+  FREELANCER
+}
+
+enum TaskStatus {
+  OPEN
+  IN_PROGRESS
+  COMPLETED
+  CANCELLED
+}
+
+enum MilestoneStatus {
+  PENDING
+  IN_REVIEW
+  APPROVED
+  REVISION
+}
+
+enum PaymentStatus {
+  PENDING
+  PROCESSING
+  COMPLETED
+  FAILED
+  REFUNDED
+}

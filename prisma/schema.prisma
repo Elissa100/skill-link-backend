@@ -3,32 +3,29 @@ generator client {
 }
 
 datasource db {
-  provider          = "postgresql"
-  url               = env("DATABASE_URL")
-  shadowDatabaseUrl = env("SHADOW_DATABASE_URL")
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
 }
 
 model User {
-  id                 String          @id @default(cuid())
-  email              String          @unique
-  password           String
-  role               Role            @default(FREELANCER)
-  name               String
-  bio                String?
-  skills             Json?
-  portfolioLinks     Json?
-  emailVerifiedAt    DateTime?       // null until user verifies email
-  verificationCode   String?         // 6-digit code
-  verificationExpiry DateTime?       // code expiry
-
-  createdAt          DateTime        @default(now())
-  updatedAt          DateTime        @updatedAt
+  id               String    @id @default(cuid())
+  email            String    @unique
+  password         String
+  role             Role      @default(FREELANCER)
+  name             String
+  bio              String?
+  skills           Json?     
+  portfolioLinks   Json?     
+  emailVerifiedAt  DateTime?
+  profileVisibility ProfileVisibility @default(PUBLIC)
+  createdAt        DateTime  @default(now())
+  updatedAt        DateTime  @updatedAt
 
   // Relations
-  clientTasks        Task[]          @relation("ClientTasks")
-  bids               Bid[]
-  sentMessages       Message[]       @relation("SentMessages")
-  notifications      Notification[]
+  clientTasks      Task[]    @relation("ClientTasks")
+  bids             Bid[]
+  sentMessages     Message[] @relation("SentMessages")
+  notifications    Notification[]
 
   @@map("users")
 }
@@ -41,17 +38,17 @@ model Task {
   deadline    DateTime
   status      TaskStatus @default(OPEN)
   clientId    String
-  attachments Json?
+  attachments Json?      
 
-  createdAt   DateTime   @default(now())
-  updatedAt   DateTime   @updatedAt
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
 
   // Relations
-  client      User       @relation("ClientTasks", fields: [clientId], references: [id], onDelete: Cascade)
-  bids        Bid[]
-  milestones  Milestone[]
-  messages    Message[]
-  payments    Payment[]
+  client     User        @relation("ClientTasks", fields: [clientId], references: [id], onDelete: Cascade)
+  bids       Bid[]
+  milestones Milestone[]
+  messages   Message[]
+  payments   Payment[]
 
   @@map("tasks")
 }
@@ -66,8 +63,8 @@ model Bid {
   createdAt    DateTime @default(now())
 
   // Relations
-  freelancer   User     @relation(fields: [freelancerId], references: [id], onDelete: Cascade)
-  task         Task     @relation(fields: [taskId], references: [id], onDelete: Cascade)
+  freelancer User @relation(fields: [freelancerId], references: [id], onDelete: Cascade)
+  task       Task @relation(fields: [taskId], references: [id], onDelete: Cascade)
 
   @@unique([freelancerId, taskId])
   @@map("bids")
@@ -84,23 +81,23 @@ model Milestone {
   updatedAt   DateTime        @updatedAt
 
   // Relations
-  task        Task       @relation(fields: [taskId], references: [id], onDelete: Cascade)
-  payments    Payment[]
+  task     Task      @relation(fields: [taskId], references: [id], onDelete: Cascade)
+  payments Payment[]
 
   @@map("milestones")
 }
 
 model Message {
-  id        String    @id @default(cuid())
-  content   String
-  senderId  String
-  taskId    String
-  readAt    DateTime?
-  createdAt DateTime  @default(now())
+  id       String    @id @default(cuid())
+  content  String
+  senderId String
+  taskId   String
+  readAt   DateTime?
+  createdAt DateTime @default(now())
 
   // Relations
-  sender    User      @relation("SentMessages", fields: [senderId], references: [id], onDelete: Cascade)
-  task      Task      @relation(fields: [taskId], references: [id], onDelete: Cascade)
+  sender User @relation("SentMessages", fields: [senderId], references: [id], onDelete: Cascade)
+  task   Task @relation(fields: [taskId], references: [id], onDelete: Cascade)
 
   @@map("messages")
 }
@@ -123,15 +120,15 @@ model Payment {
 }
 
 model Notification {
-  id        String   @id @default(cuid())
+  id        String    @id @default(cuid())
   userId    String
   type      String
   payload   Json
   readAt    DateTime?
-  createdAt DateTime @default(now())
+  createdAt DateTime  @default(now())
 
   // Relations
-  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
 
   @@map("notifications")
 }
@@ -162,4 +159,9 @@ enum PaymentStatus {
   COMPLETED
   FAILED
   REFUNDED
+}
+
+enum ProfileVisibility {
+  PUBLIC
+  PRIVATE
 }

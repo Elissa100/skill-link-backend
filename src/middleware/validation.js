@@ -34,28 +34,22 @@ const loginSchema = z.object({
 const createTaskSchema = z.object({
   title: z.string().min(1).max(200),
   description: z.string().min(1),
-  budget: z.union([
-    z.number().positive(),
-    z.string().regex(/^\d+(\.\d+)?$/).transform(Number) // accepts string numbers
-  ]),
-  deadline: z.string().transform(str => new Date(str))
+  budget: z.union([z.number(), z.string().transform(str => parseFloat(str))]).refine(val => val > 0, "Budget must be positive"),
+  deadline: z.string()
 });
 
 const updateTaskSchema = z.object({
   title: z.string().min(1).max(200).optional(),
   description: z.string().min(1).optional(),
-  budget: z.union([
-    z.number().positive(),
-    z.string().regex(/^\d+(\.\d+)?$/).transform(Number)
-  ]).optional(),
-  deadline: z.string().transform(str => new Date(str)).optional(),
+  budget: z.union([z.number(), z.string().transform(str => parseFloat(str))]).refine(val => val > 0, "Budget must be positive").optional(),
+  deadline: z.string().optional(),
   status: z.enum(['OPEN', 'IN_PROGRESS', 'COMPLETED', 'CANCELLED']).optional()
 });
 
 // Bid schemas
 const createBidSchema = z.object({
   proposal: z.string().min(1),
-  amount: z.number().positive(),
+  amount: z.union([z.number(), z.string().transform(str => parseFloat(str))]).refine(val => val > 0, "Amount must be positive"),
   timeline: z.string().min(1)
 });
 
@@ -67,8 +61,17 @@ const createMessageSchema = z.object({
 // Milestone schemas
 const createMilestoneSchema = z.object({
   description: z.string().min(1),
-  dueDate: z.string().transform(str => new Date(str)),
-  amount: z.number().positive()
+  dueDate: z.string(),
+  amount: z.union([z.number(), z.string().transform(str => parseFloat(str))]).refine(val => val > 0, "Amount must be positive")
+});
+
+// Profile schemas
+const updateProfileSchema = z.object({
+  name: z.string().min(2).optional(),
+  bio: z.string().optional(),
+  skills: z.array(z.string()).optional(),
+  portfolioLinks: z.array(z.string().url()).optional(),
+  profileVisibility: z.enum(['PUBLIC', 'PRIVATE']).optional()
 });
 
 module.exports = {
@@ -79,6 +82,6 @@ module.exports = {
   updateTaskSchema,
   createBidSchema,
   createMessageSchema,
-  createMilestoneSchema
+  createMilestoneSchema,
+  updateProfileSchema
 };
-//  *         description: Email verified successfully

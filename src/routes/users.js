@@ -1,6 +1,7 @@
 const express = require('express');
 const { prisma } = require('../config/database');
 const { authenticateToken, authorizeRoles } = require('../middleware/auth');
+const { validate, updateProfileSchema } = require('../middleware/validation');
 
 const router = express.Router();
 
@@ -28,6 +29,7 @@ router.get('/profile', authenticateToken, async (req, res, next) => {
         bio: true,
         skills: true,
         portfolioLinks: true,
+        profileVisibility: true,
         createdAt: true,
         updatedAt: true
       }
@@ -73,9 +75,12 @@ router.get('/profile', authenticateToken, async (req, res, next) => {
  *       200:
  *         description: Profile updated successfully
  */
-router.put('/profile', authenticateToken, async (req, res, next) => {
+router.put('/profile', 
+  authenticateToken, 
+  validate(updateProfileSchema),
+  async (req, res, next) => {
   try {
-    const { name, bio, skills, portfolioLinks } = req.body;
+    const { name, bio, skills, portfolioLinks, profileVisibility } = req.body;
     
     const user = await prisma.user.update({
       where: { id: req.user.id },
@@ -83,7 +88,8 @@ router.put('/profile', authenticateToken, async (req, res, next) => {
         ...(name && { name }),
         ...(bio !== undefined && { bio }),
         ...(skills && { skills }),
-        ...(portfolioLinks && { portfolioLinks })
+        ...(portfolioLinks && { portfolioLinks }),
+        ...(profileVisibility && { profileVisibility })
       },
       select: {
         id: true,
@@ -93,6 +99,7 @@ router.put('/profile', authenticateToken, async (req, res, next) => {
         bio: true,
         skills: true,
         portfolioLinks: true,
+        profileVisibility: true,
         updatedAt: true
       }
     });

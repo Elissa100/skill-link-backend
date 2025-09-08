@@ -1,0 +1,932 @@
+[2025-09-08 13:45:13] 2025-09-08 13:45:13 ℹ️ INFO: 🚀 Starting SkillLink server...
+   nodeVersion: v18.20.8
+   platform: linux
+   architecture: x64
+   memory: {
+  "rss": 124674048,
+  "heapTotal": 74522624,
+  "heapUsed": 48495232,
+  "external": 1387604,
+  "arrayBuffers": 173405
+}
+   environment: development
+[2025-09-08 13:45:13] 2025-09-08 13:45:13 ℹ️ INFO: ✅ Redis connection established
+[2025-09-08 13:45:13] 2025-09-08 13:45:13 ℹ️ INFO: 🎯 SkillLink server started successfully
+   port: 3001
+   environment: development
+   corsOrigin: http://localhost:5173
+   docsUrl: http://localhost:3001/docs
+   healthUrl: http://localhost:3001/health
+   timestamp: 2025-09-08T13:45:13.521Z
+[2025-09-08 13:45:23] 2025-09-08 13:45:23 ℹ️ INFO: 🚀 Starting SkillLink server...
+   nodeVersion: v18.20.8
+   platform: linux
+   architecture: x64
+   memory: {
+  "rss": 124178432,
+  "heapTotal": 73474048,
+  "heapUsed": 48845840,
+  "external": 1606712,
+  "arrayBuffers": 392513
+}
+   environment: development
+[2025-09-08 13:45:23] 2025-09-08 13:45:23 ℹ️ INFO: ✅ Redis connection established
+[2025-09-08 13:45:23] 2025-09-08 13:45:23 ℹ️ INFO: 🎯 SkillLink server started successfully
+   port: 3001
+   environment: development
+   corsOrigin: http://localhost:5173
+   docsUrl: http://localhost:3001/docs
+   healthUrl: http://localhost:3001/health
+   timestamp: 2025-09-08T13:45:23.774Z
+[2025-09-08 13:45:35] 2025-09-08 13:45:35 ℹ️ INFO: Health check requested
+   ip: ::1
+   userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+   requestId: a32ee2d8-c173-4d02-8075-d5562e32eadb
+[2025-09-08 13:45:35] 2025-09-08 13:45:35 ℹ️ INFO: API Response
+   method: GET
+   path: /health
+   statusCode: 200
+   duration: 7ms
+   requestId: a32ee2d8-c173-4d02-8075-d5562e32eadb
+   userId: anonymous
+   dataSize: 206
+[2025-09-08 13:45:35] 2025-09-08 13:45:35 ℹ️ INFO: Request completed
+   method: GET
+   path: /health
+   statusCode: 200
+   duration: 8ms
+   ip: ::1
+   userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+   requestId: a32ee2d8-c173-4d02-8075-d5562e32eadb
+   userId: anonymous
+   contentLength: 206
+[2025-09-08 13:45:35] 2025-09-08 13:45:35 ⚠️ WARN: 404 - Route not found
+   method: GET
+   path: /
+   originalUrl: /favicon.ico
+   ip: ::1
+   userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+   requestId: 89899b70-a857-452c-9adf-a147de2d6d28
+   userId: anonymous
+[2025-09-08 13:45:35] 2025-09-08 13:45:35 ℹ️ INFO: API Response
+   method: GET
+   path: /
+   statusCode: 404
+   duration: 2ms
+   requestId: 89899b70-a857-452c-9adf-a147de2d6d28
+   userId: anonymous
+   dataSize: 106
+[2025-09-08 13:45:35] 2025-09-08 13:45:35 ℹ️ INFO: Request completed
+   method: GET
+   path: /
+   statusCode: 404
+   duration: 2ms
+   ip: ::1
+   userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+   requestId: 89899b70-a857-452c-9adf-a147de2d6d28
+   userId: anonymous
+   contentLength: 106
+[2025-09-08 13:47:55] 2025-09-08 13:47:55 ℹ️ INFO: Auth route accessed
+   method: GET
+   path: /me
+   ip: ::1
+   requestId: 2a75effc-3835-4428-b0cc-bc25c8f035b8
+[2025-09-08 13:47:55] 2025-09-08 13:47:55 ℹ️ INFO: API Response
+   method: GET
+   path: /me
+   statusCode: 200
+   duration: 66ms
+   requestId: 2a75effc-3835-4428-b0cc-bc25c8f035b8
+   userId: cmfb5xqo70000hfrxwupdp7li
+   dataSize: 140
+[2025-09-08 13:47:55] 2025-09-08 13:47:55 ℹ️ INFO: Request completed
+   method: GET
+   path: /me
+   statusCode: 200
+   duration: 66ms
+   ip: ::1
+   userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+   requestId: 2a75effc-3835-4428-b0cc-bc25c8f035b8
+   userId: cmfb5xqo70000hfrxwupdp7li
+   contentLength: 140
+[2025-09-08 13:47:55] 2025-09-08 13:47:55 ℹ️ INFO: Auth route accessed
+   method: GET
+   path: /me
+   ip: ::1
+   requestId: 28730870-2e47-46e7-be94-f3a5cf755d6e
+[2025-09-08 13:47:55] 2025-09-08 13:47:55 ℹ️ INFO: API Response
+   method: GET
+   path: /me
+   statusCode: 200
+   duration: 7ms
+   requestId: 28730870-2e47-46e7-be94-f3a5cf755d6e
+   userId: cmfb5xqo70000hfrxwupdp7li
+   dataSize: 140
+[2025-09-08 13:47:55] 2025-09-08 13:47:55 ℹ️ INFO: Request completed
+   method: GET
+   path: /me
+   statusCode: 200
+   duration: 7ms
+   ip: ::1
+   userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+   requestId: 28730870-2e47-46e7-be94-f3a5cf755d6e
+   userId: cmfb5xqo70000hfrxwupdp7li
+   contentLength: 140
+[2025-09-08 13:47:55] 2025-09-08 13:47:55 ℹ️ INFO: API Response
+   method: GET
+   path: /
+   statusCode: 200
+   duration: 18ms
+   requestId: 85f1bfb6-ec82-4b24-bb03-f8cf32b0c948
+   userId: cmfb5xqo70000hfrxwupdp7li
+   dataSize: 138
+[2025-09-08 13:47:55] 2025-09-08 13:47:55 ℹ️ INFO: Request completed
+   method: GET
+   path: /
+   statusCode: 200
+   duration: 19ms
+   ip: ::1
+   userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+   requestId: 85f1bfb6-ec82-4b24-bb03-f8cf32b0c948
+   userId: cmfb5xqo70000hfrxwupdp7li
+   contentLength: 138
+[2025-09-08 13:48:38] 2025-09-08 13:48:38 ℹ️ INFO: API Response
+   method: GET
+   path: /
+   statusCode: 200
+   duration: 4ms
+   requestId: 0b6f68a0-3bce-4685-9ab4-262f90112ff7
+   userId: anonymous
+   dataSize: 1265
+[2025-09-08 13:48:38] 2025-09-08 13:48:38 ℹ️ INFO: Request completed
+   method: GET
+   path: /
+   statusCode: 200
+   duration: 4ms
+   ip: ::1
+   userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+   requestId: 0b6f68a0-3bce-4685-9ab4-262f90112ff7
+   userId: anonymous
+   contentLength: 1265
+[2025-09-08 13:48:38] 2025-09-08 13:48:38 ℹ️ INFO: API Response
+   method: GET
+   path: /
+   statusCode: 200
+   duration: 8ms
+   requestId: 742df86d-934e-46d3-aa1d-138ed3f824b1
+   userId: cmfb5xqo70000hfrxwupdp7li
+   dataSize: 779
+[2025-09-08 13:48:38] 2025-09-08 13:48:38 ℹ️ INFO: Request completed
+   method: GET
+   path: /
+   statusCode: 200
+   duration: 8ms
+   ip: ::1
+   userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+   requestId: 742df86d-934e-46d3-aa1d-138ed3f824b1
+   userId: cmfb5xqo70000hfrxwupdp7li
+   contentLength: 779
+[2025-09-08 13:48:38] 2025-09-08 13:48:38 ℹ️ INFO: API Response
+   method: GET
+   path: /
+   statusCode: 200
+   duration: 5ms
+   requestId: aaf66842-3371-4299-ab22-9d1ccc25a3b1
+   userId: anonymous
+   dataSize: 1265
+[2025-09-08 13:48:38] 2025-09-08 13:48:38 ℹ️ INFO: Request completed
+   method: GET
+   path: /
+   statusCode: 200
+   duration: 5ms
+   ip: ::1
+   userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+   requestId: aaf66842-3371-4299-ab22-9d1ccc25a3b1
+   userId: anonymous
+   contentLength: 1265
+[2025-09-08 13:48:38] 2025-09-08 13:48:38 ℹ️ INFO: API Response
+   method: GET
+   path: /history
+   statusCode: 200
+   duration: 22ms
+   requestId: 974d53a1-c369-4fc9-9dbe-255327688d4f
+   userId: cmfb5xqo70000hfrxwupdp7li
+   dataSize: 62
+[2025-09-08 13:48:38] 2025-09-08 13:48:38 ℹ️ INFO: Request completed
+   method: GET
+   path: /history
+   statusCode: 200
+   duration: 23ms
+   ip: ::1
+   userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+   requestId: 974d53a1-c369-4fc9-9dbe-255327688d4f
+   userId: cmfb5xqo70000hfrxwupdp7li
+   contentLength: 62
+[2025-09-08 13:48:38] 2025-09-08 13:48:38 ℹ️ INFO: API Response
+   method: GET
+   path: /
+   statusCode: 200
+   duration: 10ms
+   requestId: 732f503d-b1b7-48b2-9fb6-832fa0ef0488
+   userId: cmfb5xqo70000hfrxwupdp7li
+   dataSize: 779
+[2025-09-08 13:48:38] 2025-09-08 13:48:38 ℹ️ INFO: Request completed
+   method: GET
+   path: /
+   statusCode: 200
+   duration: 11ms
+   ip: ::1
+   userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+   requestId: 732f503d-b1b7-48b2-9fb6-832fa0ef0488
+   userId: cmfb5xqo70000hfrxwupdp7li
+   contentLength: 779
+[2025-09-08 13:48:38] 2025-09-08 13:48:38 ℹ️ INFO: API Response
+   method: GET
+   path: /history
+   statusCode: 200
+   duration: 7ms
+   requestId: b5c3971c-8cb3-43f8-8aab-390f955884ab
+   userId: cmfb5xqo70000hfrxwupdp7li
+   dataSize: 62
+[2025-09-08 13:48:38] 2025-09-08 13:48:38 ℹ️ INFO: Request completed
+   method: GET
+   path: /history
+   statusCode: 200
+   duration: 7ms
+   ip: ::1
+   userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+   requestId: b5c3971c-8cb3-43f8-8aab-390f955884ab
+   userId: cmfb5xqo70000hfrxwupdp7li
+   contentLength: 62
+[2025-09-08 13:49:26] 2025-09-08 13:49:26 ℹ️ INFO: API Response
+   method: GET
+   path: /profile
+   statusCode: 200
+   duration: 11ms
+   requestId: 4a18fea6-ab7b-4e39-b75d-4b1823e11b35
+   userId: cmfb5xqo70000hfrxwupdp7li
+   dataSize: 324
+[2025-09-08 13:49:26] 2025-09-08 13:49:26 ℹ️ INFO: Request completed
+   method: GET
+   path: /profile
+   statusCode: 200
+   duration: 12ms
+   ip: ::1
+   userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+   requestId: 4a18fea6-ab7b-4e39-b75d-4b1823e11b35
+   userId: cmfb5xqo70000hfrxwupdp7li
+   contentLength: 324
+[2025-09-08 13:49:26] 2025-09-08 13:49:26 ℹ️ INFO: API Response
+   method: GET
+   path: /profile
+   statusCode: 200
+   duration: 6ms
+   requestId: e9553d61-03ed-4f1b-be50-6ae353d35915
+   userId: cmfb5xqo70000hfrxwupdp7li
+   dataSize: 324
+[2025-09-08 13:49:26] 2025-09-08 13:49:26 ℹ️ INFO: Request completed
+   method: GET
+   path: /profile
+   statusCode: 200
+   duration: 6ms
+   ip: ::1
+   userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+   requestId: e9553d61-03ed-4f1b-be50-6ae353d35915
+   userId: cmfb5xqo70000hfrxwupdp7li
+   contentLength: 324
+[2025-09-08 13:49:43] 2025-09-08 13:49:43 ℹ️ INFO: Auth route accessed
+   method: POST
+   path: /logout
+   ip: ::1
+   requestId: 2ab26c66-fe52-451e-abc2-74639f27206d
+[2025-09-08 13:49:43] 2025-09-08 13:49:43 ℹ️ INFO: API Response
+   method: POST
+   path: /logout
+   statusCode: 200
+   duration: 7ms
+   requestId: 2ab26c66-fe52-451e-abc2-74639f27206d
+   userId: cmfb5xqo70000hfrxwupdp7li
+   dataSize: 31
+[2025-09-08 13:49:43] 2025-09-08 13:49:43 ℹ️ INFO: Request completed
+   method: POST
+   path: /logout
+   statusCode: 200
+   duration: 7ms
+   ip: ::1
+   userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+   requestId: 2ab26c66-fe52-451e-abc2-74639f27206d
+   userId: cmfb5xqo70000hfrxwupdp7li
+   contentLength: 31
+[2025-09-08 13:50:02] 2025-09-08 13:50:02 ℹ️ INFO: Auth route accessed
+   method: POST
+   path: /login
+   ip: ::1
+   requestId: 951806cc-9db4-495a-afc1-c812266ef270
+[2025-09-08 13:50:03] 2025-09-08 13:50:03 ℹ️ INFO: API Response
+   method: POST
+   path: /login
+   statusCode: 200
+   duration: 343ms
+   requestId: 951806cc-9db4-495a-afc1-c812266ef270
+   userId: anonymous
+   dataSize: 912
+[2025-09-08 13:50:03] 2025-09-08 13:50:03 ℹ️ INFO: Request completed
+   method: POST
+   path: /login
+   statusCode: 200
+   duration: 344ms
+   ip: ::1
+   userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+   requestId: 951806cc-9db4-495a-afc1-c812266ef270
+   userId: anonymous
+   contentLength: 912
+[2025-09-08 13:50:03] 2025-09-08 13:50:03 ℹ️ INFO: API Response
+   method: GET
+   path: /
+   statusCode: 200
+   duration: 17ms
+   requestId: bd642788-6ab9-4ba3-bb2a-3c462a571682
+   userId: cmfb5xr9m0002hfrxale598tj
+   dataSize: 392
+[2025-09-08 13:50:03] 2025-09-08 13:50:03 ℹ️ INFO: Request completed
+   method: GET
+   path: /
+   statusCode: 200
+   duration: 18ms
+   ip: ::1
+   userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+   requestId: bd642788-6ab9-4ba3-bb2a-3c462a571682
+   userId: cmfb5xr9m0002hfrxale598tj
+   contentLength: 392
+[2025-09-08 13:50:03] 2025-09-08 13:50:03 ℹ️ INFO: API Response
+   method: GET
+   path: /my/bids
+   statusCode: 200
+   duration: 18ms
+   requestId: f02a5a0b-74f6-4f97-a15b-3659e0736ab4
+   userId: cmfb5xr9m0002hfrxale598tj
+   dataSize: 1961
+[2025-09-08 13:50:03] 2025-09-08 13:50:03 ℹ️ INFO: Request completed
+   method: GET
+   path: /my/bids
+   statusCode: 200
+   duration: 19ms
+   ip: ::1
+   userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+   requestId: f02a5a0b-74f6-4f97-a15b-3659e0736ab4
+   userId: cmfb5xr9m0002hfrxale598tj
+   contentLength: 1961
+[2025-09-08 13:50:03] 2025-09-08 13:50:03 ℹ️ INFO: API Response
+   method: GET
+   path: /my/tasks
+   statusCode: 200
+   duration: 14ms
+   requestId: 7a85d43d-4805-4e61-b37b-fef2fa75e95a
+   userId: cmfb5xr9m0002hfrxale598tj
+   dataSize: 2741
+[2025-09-08 13:50:03] 2025-09-08 13:50:03 ℹ️ INFO: API Response
+   method: GET
+   path: /history
+   statusCode: 200
+   duration: 14ms
+   requestId: 9e2b7a86-b2a4-4023-a750-4b3263ae6ab3
+   userId: cmfb5xr9m0002hfrxale598tj
+   dataSize: 62
+[2025-09-08 13:50:03] 2025-09-08 13:50:03 ℹ️ INFO: Request completed
+   method: GET
+   path: /my/tasks
+   statusCode: 200
+   duration: 14ms
+   ip: ::1
+   userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+   requestId: 7a85d43d-4805-4e61-b37b-fef2fa75e95a
+   userId: cmfb5xr9m0002hfrxale598tj
+   contentLength: 2741
+[2025-09-08 13:50:03] 2025-09-08 13:50:03 ℹ️ INFO: Request completed
+   method: GET
+   path: /history
+   statusCode: 200
+   duration: 15ms
+   ip: ::1
+   userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+   requestId: 9e2b7a86-b2a4-4023-a750-4b3263ae6ab3
+   userId: cmfb5xr9m0002hfrxale598tj
+   contentLength: 62
+[2025-09-08 13:50:03] 2025-09-08 13:50:03 ℹ️ INFO: API Response
+   method: GET
+   path: /my/bids
+   statusCode: 200
+   duration: 16ms
+   requestId: c5bf8f3a-26a3-4339-8bc1-cf74014c39ed
+   userId: cmfb5xr9m0002hfrxale598tj
+   dataSize: 1961
+[2025-09-08 13:50:03] 2025-09-08 13:50:03 ℹ️ INFO: Request completed
+   method: GET
+   path: /my/bids
+   statusCode: 200
+   duration: 17ms
+   ip: ::1
+   userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+   requestId: c5bf8f3a-26a3-4339-8bc1-cf74014c39ed
+   userId: cmfb5xr9m0002hfrxale598tj
+   contentLength: 1961
+[2025-09-08 13:50:03] 2025-09-08 13:50:03 ℹ️ INFO: API Response
+   method: GET
+   path: /history
+   statusCode: 200
+   duration: 8ms
+   requestId: 6eaf2776-9426-4921-933d-a922597ed7c9
+   userId: cmfb5xr9m0002hfrxale598tj
+   dataSize: 62
+[2025-09-08 13:50:03] 2025-09-08 13:50:03 ℹ️ INFO: Request completed
+   method: GET
+   path: /history
+   statusCode: 200
+   duration: 8ms
+   ip: ::1
+   userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+   requestId: 6eaf2776-9426-4921-933d-a922597ed7c9
+   userId: cmfb5xr9m0002hfrxale598tj
+   contentLength: 62
+[2025-09-08 13:50:03] 2025-09-08 13:50:03 ℹ️ INFO: API Response
+   method: GET
+   path: /my/tasks
+   statusCode: 200
+   duration: 18ms
+   requestId: ff648d2c-b631-414d-804a-c6e88af2b266
+   userId: cmfb5xr9m0002hfrxale598tj
+   dataSize: 2741
+[2025-09-08 13:50:03] 2025-09-08 13:50:03 ℹ️ INFO: Request completed
+   method: GET
+   path: /my/tasks
+   statusCode: 200
+   duration: 18ms
+   ip: ::1
+   userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+   requestId: ff648d2c-b631-414d-804a-c6e88af2b266
+   userId: cmfb5xr9m0002hfrxale598tj
+   contentLength: 2741
+[2025-09-08 13:50:08] 2025-09-08 13:50:08 ℹ️ INFO: API Response
+   method: PATCH
+   path: /cmfb5xrai000qhfrxojjskza5/read
+   statusCode: 200
+   duration: 21ms
+   requestId: 846b9af1-0e1d-4783-a156-152a3a85ff70
+   userId: cmfb5xr9m0002hfrxale598tj
+   dataSize: 325
+[2025-09-08 13:50:08] 2025-09-08 13:50:08 ℹ️ INFO: Request completed
+   method: PATCH
+   path: /cmfb5xrai000qhfrxojjskza5/read
+   statusCode: 200
+   duration: 22ms
+   ip: ::1
+   userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+   requestId: 846b9af1-0e1d-4783-a156-152a3a85ff70
+   userId: cmfb5xr9m0002hfrxale598tj
+   contentLength: 325
+[2025-09-08 13:50:08] 2025-09-08 13:50:08 ℹ️ INFO: API Response
+   method: GET
+   path: /
+   statusCode: 200
+   duration: 12ms
+   requestId: f748ade2-67a2-42ed-b6a6-35b04f206e2d
+   userId: cmfb5xr9m0002hfrxale598tj
+   dataSize: 414
+[2025-09-08 13:50:08] 2025-09-08 13:50:08 ℹ️ INFO: Request completed
+   method: GET
+   path: /
+   statusCode: 200
+   duration: 12ms
+   ip: ::1
+   userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+   requestId: f748ade2-67a2-42ed-b6a6-35b04f206e2d
+   userId: cmfb5xr9m0002hfrxale598tj
+   contentLength: 414
+[2025-09-08 13:50:08] 2025-09-08 13:50:08 ℹ️ INFO: Socket authentication attempt
+   socketId: 5tYcFMPG4PZU-oSjAAAC
+   handshake: {
+  "address": "::1",
+  "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+  "auth": "[PRESENT]"
+}
+[2025-09-08 13:50:08] 2025-09-08 13:50:08 ℹ️ INFO: API Response
+   method: GET
+   path: /cmfb5xra30009hfrx7psg4ivx
+   statusCode: 200
+   duration: 10ms
+   requestId: 82fcf655-8bda-4b62-9f17-a2cbe9e95be7
+   userId: anonymous
+   dataSize: 1728
+[2025-09-08 13:50:08] 2025-09-08 13:50:08 ℹ️ INFO: Request completed
+   method: GET
+   path: /cmfb5xra30009hfrx7psg4ivx
+   statusCode: 200
+   duration: 11ms
+   ip: ::1
+   userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+   requestId: 82fcf655-8bda-4b62-9f17-a2cbe9e95be7
+   userId: anonymous
+   contentLength: 1728
+[2025-09-08 13:50:08] 2025-09-08 13:50:08 ℹ️ INFO: 🔗 User connected to socket
+   socketId: 5tYcFMPG4PZU-oSjAAAC
+   userId: cmfb5xr9m0002hfrxale598tj
+   ip: ::1
+   userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+[2025-09-08 13:50:08] 2025-09-08 13:50:08 ℹ️ INFO: API Response
+   method: GET
+   path: /task/cmfb5xra30009hfrx7psg4ivx
+   statusCode: 200
+   duration: 18ms
+   requestId: 1cd18090-0506-4119-ad5e-5b714ebb5947
+   userId: cmfb5xr9m0002hfrxale598tj
+   dataSize: 55
+[2025-09-08 13:50:08] 2025-09-08 13:50:08 ℹ️ INFO: Request completed
+   method: GET
+   path: /task/cmfb5xra30009hfrx7psg4ivx
+   statusCode: 200
+   duration: 18ms
+   ip: ::1
+   userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+   requestId: 1cd18090-0506-4119-ad5e-5b714ebb5947
+   userId: cmfb5xr9m0002hfrxale598tj
+   contentLength: 55
+[2025-09-08 13:50:08] 2025-09-08 13:50:08 ℹ️ INFO: API Response
+   method: GET
+   path: /cmfb5xra30009hfrx7psg4ivx
+   statusCode: 200
+   duration: 9ms
+   requestId: 39d16b60-fe4b-406f-a055-a8309100ebcf
+   userId: anonymous
+   dataSize: 1728
+[2025-09-08 13:50:08] 2025-09-08 13:50:08 ℹ️ INFO: Request completed
+   method: GET
+   path: /cmfb5xra30009hfrx7psg4ivx
+   statusCode: 200
+   duration: 9ms
+   ip: ::1
+   userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+   requestId: 39d16b60-fe4b-406f-a055-a8309100ebcf
+   userId: anonymous
+   contentLength: 1728
+[2025-09-08 13:50:08] 2025-09-08 13:50:08 ℹ️ INFO: 📋 User joined task room
+   socketId: 5tYcFMPG4PZU-oSjAAAC
+   userId: cmfb5xr9m0002hfrxale598tj
+   taskId: cmfb5xra30009hfrx7psg4ivx
+   room: task_cmfb5xra30009hfrx7psg4ivx
+[2025-09-08 13:50:08] 2025-09-08 13:50:08 ℹ️ INFO: API Response
+   method: GET
+   path: /task/cmfb5xra30009hfrx7psg4ivx
+   statusCode: 200
+   duration: 11ms
+   requestId: 88282ea3-7630-47bf-a040-eb8b3a2c953d
+   userId: cmfb5xr9m0002hfrxale598tj
+   dataSize: 55
+[2025-09-08 13:50:08] 2025-09-08 13:50:08 ℹ️ INFO: Request completed
+   method: GET
+   path: /task/cmfb5xra30009hfrx7psg4ivx
+   statusCode: 200
+   duration: 11ms
+   ip: ::1
+   userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+   requestId: 88282ea3-7630-47bf-a040-eb8b3a2c953d
+   userId: cmfb5xr9m0002hfrxale598tj
+   contentLength: 55
+[2025-09-08 13:50:08] 2025-09-08 13:50:08 ℹ️ INFO: 🚪 User left task room
+   socketId: 5tYcFMPG4PZU-oSjAAAC
+   userId: cmfb5xr9m0002hfrxale598tj
+   taskId: cmfb5xra30009hfrx7psg4ivx
+   room: task_cmfb5xra30009hfrx7psg4ivx
+[2025-09-08 13:50:08] 2025-09-08 13:50:08 ℹ️ INFO: 📋 User joined task room
+   socketId: 5tYcFMPG4PZU-oSjAAAC
+   userId: cmfb5xr9m0002hfrxale598tj
+   taskId: cmfb5xra30009hfrx7psg4ivx
+   room: task_cmfb5xra30009hfrx7psg4ivx
+[2025-09-08 13:50:18] 2025-09-08 13:50:18 ℹ️ INFO: 💬 Message sent successfully
+   socketId: 5tYcFMPG4PZU-oSjAAAC
+   userId: cmfb5xr9m0002hfrxale598tj
+   taskId: cmfb5xra30009hfrx7psg4ivx
+   messageId: cmfb6ilff0001z6vnakdkdpdo
+   contentLength: 3
+[2025-09-08 13:50:21] 2025-09-08 13:50:21 ℹ️ INFO: 🔌 User disconnected from socket
+   socketId: 5tYcFMPG4PZU-oSjAAAC
+   userId: cmfb5xr9m0002hfrxale598tj
+   reason: client namespace disconnect
+   uptime: 1757339408725
+[2025-09-08 13:50:21] 2025-09-08 13:50:21 ℹ️ INFO: API Response
+   method: GET
+   path: /my/bids
+   statusCode: 200
+   duration: 5ms
+   requestId: 6ed3eba2-a924-4872-9b25-a8309c011397
+   userId: cmfb5xr9m0002hfrxale598tj
+   dataSize: 1961
+[2025-09-08 13:50:21] 2025-09-08 13:50:21 ℹ️ INFO: Request completed
+   method: GET
+   path: /my/bids
+   statusCode: 200
+   duration: 6ms
+   ip: ::1
+   userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+   requestId: 6ed3eba2-a924-4872-9b25-a8309c011397
+   userId: cmfb5xr9m0002hfrxale598tj
+   contentLength: 1961
+[2025-09-08 13:50:21] 2025-09-08 13:50:21 ℹ️ INFO: API Response
+   method: GET
+   path: /history
+   statusCode: 200
+   duration: 4ms
+   requestId: 5b2f09a0-8e42-486e-ae3c-8c148ba01bd9
+   userId: cmfb5xr9m0002hfrxale598tj
+   dataSize: 62
+[2025-09-08 13:50:21] 2025-09-08 13:50:21 ℹ️ INFO: Request completed
+   method: GET
+   path: /history
+   statusCode: 200
+   duration: 4ms
+   ip: ::1
+   userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+   requestId: 5b2f09a0-8e42-486e-ae3c-8c148ba01bd9
+   userId: cmfb5xr9m0002hfrxale598tj
+   contentLength: 62
+[2025-09-08 13:50:21] 2025-09-08 13:50:21 ℹ️ INFO: API Response
+   method: GET
+   path: /my/tasks
+   statusCode: 200
+   duration: 12ms
+   requestId: 0c77f160-b79b-4840-8f84-1e94b33acc02
+   userId: cmfb5xr9m0002hfrxale598tj
+   dataSize: 2741
+[2025-09-08 13:50:21] 2025-09-08 13:50:21 ℹ️ INFO: Request completed
+   method: GET
+   path: /my/tasks
+   statusCode: 200
+   duration: 13ms
+   ip: ::1
+   userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+   requestId: 0c77f160-b79b-4840-8f84-1e94b33acc02
+   userId: cmfb5xr9m0002hfrxale598tj
+   contentLength: 2741
+[2025-09-08 13:50:21] 2025-09-08 13:50:21 ℹ️ INFO: API Response
+   method: GET
+   path: /my/bids
+   statusCode: 200
+   duration: 12ms
+   requestId: f6c3625e-b7b8-4fda-bc4b-df256eeceb35
+   userId: cmfb5xr9m0002hfrxale598tj
+   dataSize: 1961
+[2025-09-08 13:50:21] 2025-09-08 13:50:21 ℹ️ INFO: Request completed
+   method: GET
+   path: /my/bids
+   statusCode: 200
+   duration: 13ms
+   ip: ::1
+   userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+   requestId: f6c3625e-b7b8-4fda-bc4b-df256eeceb35
+   userId: cmfb5xr9m0002hfrxale598tj
+   contentLength: 1961
+[2025-09-08 13:50:21] 2025-09-08 13:50:21 ℹ️ INFO: API Response
+   method: GET
+   path: /history
+   statusCode: 200
+   duration: 12ms
+   requestId: 2a719684-d2f4-4164-9720-142ae4d57efd
+   userId: cmfb5xr9m0002hfrxale598tj
+   dataSize: 62
+[2025-09-08 13:50:21] 2025-09-08 13:50:21 ℹ️ INFO: Request completed
+   method: GET
+   path: /history
+   statusCode: 200
+   duration: 13ms
+   ip: ::1
+   userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+   requestId: 2a719684-d2f4-4164-9720-142ae4d57efd
+   userId: cmfb5xr9m0002hfrxale598tj
+   contentLength: 62
+[2025-09-08 13:50:21] 2025-09-08 13:50:21 ℹ️ INFO: API Response
+   method: GET
+   path: /my/tasks
+   statusCode: 200
+   duration: 13ms
+   requestId: 2b9941af-b448-47de-85d7-158da1915102
+   userId: cmfb5xr9m0002hfrxale598tj
+   dataSize: 2741
+[2025-09-08 13:50:21] 2025-09-08 13:50:21 ℹ️ INFO: Request completed
+   method: GET
+   path: /my/tasks
+   statusCode: 200
+   duration: 14ms
+   ip: ::1
+   userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+   requestId: 2b9941af-b448-47de-85d7-158da1915102
+   userId: cmfb5xr9m0002hfrxale598tj
+   contentLength: 2741
+[2025-09-08 13:50:22] 2025-09-08 13:50:22 ℹ️ INFO: API Response
+   method: GET
+   path: /
+   statusCode: 200
+   duration: 5ms
+   requestId: 6437fb69-38fc-4269-b7bc-1b83bf8837cb
+   userId: anonymous
+   dataSize: 1264
+[2025-09-08 13:50:22] 2025-09-08 13:50:22 ℹ️ INFO: Request completed
+   method: GET
+   path: /
+   statusCode: 200
+   duration: 5ms
+   ip: ::1
+   userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+   requestId: 6437fb69-38fc-4269-b7bc-1b83bf8837cb
+   userId: anonymous
+   contentLength: 1264
+[2025-09-08 13:50:22] 2025-09-08 13:50:22 ℹ️ INFO: API Response
+   method: GET
+   path: /
+   statusCode: 200
+   duration: 7ms
+   requestId: bdefac46-7d9d-4824-ad4b-0d08d4a7f1b2
+   userId: anonymous
+   dataSize: 1264
+[2025-09-08 13:50:22] 2025-09-08 13:50:22 ℹ️ INFO: Request completed
+   method: GET
+   path: /
+   statusCode: 200
+   duration: 7ms
+   ip: ::1
+   userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+   requestId: bdefac46-7d9d-4824-ad4b-0d08d4a7f1b2
+   userId: anonymous
+   contentLength: 1264
+[2025-09-08 13:50:56] 2025-09-08 13:50:56 ℹ️ INFO: 🚀 Starting SkillLink server...
+   nodeVersion: v18.20.8
+   platform: linux
+   architecture: x64
+   memory: {
+  "rss": 122159104,
+  "heapTotal": 71901184,
+  "heapUsed": 46559992,
+  "external": 1662148,
+  "arrayBuffers": 447949
+}
+   environment: development
+[2025-09-08 13:50:56] 2025-09-08 13:50:56 ℹ️ INFO: ✅ Redis connection established
+[2025-09-08 13:50:56] 2025-09-08 13:50:56 ℹ️ INFO: 🎯 SkillLink server started successfully
+   port: 3001
+   environment: development
+   corsOrigin: http://localhost:5173
+   docsUrl: http://localhost:3001/docs
+   healthUrl: http://localhost:3001/health
+   timestamp: 2025-09-08T13:50:56.343Z
+[2025-09-08 13:51:08] 2025-09-08 13:51:08 ℹ️ INFO: API Response
+   method: GET
+   path: /my/bids
+   statusCode: 200
+   duration: 38ms
+   requestId: e450c2bc-5e68-4eb2-8839-b18f12e20e06
+   userId: cmfb5xr9m0002hfrxale598tj
+   dataSize: 1961
+[2025-09-08 13:51:08] 2025-09-08 13:51:08 ℹ️ INFO: Request completed
+   method: GET
+   path: /my/bids
+   statusCode: 200
+   duration: 38ms
+   ip: ::1
+   userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+   requestId: e450c2bc-5e68-4eb2-8839-b18f12e20e06
+   userId: cmfb5xr9m0002hfrxale598tj
+   contentLength: 1961
+[2025-09-08 13:51:08] 2025-09-08 13:51:08 ℹ️ INFO: API Response
+   method: GET
+   path: /history
+   statusCode: 200
+   duration: 38ms
+   requestId: bca66118-1958-4774-990e-d6744fd0b173
+   userId: cmfb5xr9m0002hfrxale598tj
+   dataSize: 62
+[2025-09-08 13:51:08] 2025-09-08 13:51:08 ℹ️ INFO: Request completed
+   method: GET
+   path: /history
+   statusCode: 200
+   duration: 39ms
+   ip: ::1
+   userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+   requestId: bca66118-1958-4774-990e-d6744fd0b173
+   userId: cmfb5xr9m0002hfrxale598tj
+   contentLength: 62
+[2025-09-08 13:51:08] 2025-09-08 13:51:08 ℹ️ INFO: API Response
+   method: GET
+   path: /my/tasks
+   statusCode: 200
+   duration: 44ms
+   requestId: d603c949-4e4c-411a-b1be-fa25decf1fc3
+   userId: cmfb5xr9m0002hfrxale598tj
+   dataSize: 2741
+[2025-09-08 13:51:08] 2025-09-08 13:51:08 ℹ️ INFO: Request completed
+   method: GET
+   path: /my/tasks
+   statusCode: 200
+   duration: 45ms
+   ip: ::1
+   userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+   requestId: d603c949-4e4c-411a-b1be-fa25decf1fc3
+   userId: cmfb5xr9m0002hfrxale598tj
+   contentLength: 2741
+[2025-09-08 13:51:08] 2025-09-08 13:51:08 ℹ️ INFO: API Response
+   method: GET
+   path: /my/bids
+   statusCode: 200
+   duration: 10ms
+   requestId: 298e685d-883f-48bd-914e-ef0b802c96e6
+   userId: cmfb5xr9m0002hfrxale598tj
+   dataSize: 1961
+[2025-09-08 13:51:08] 2025-09-08 13:51:08 ℹ️ INFO: Request completed
+   method: GET
+   path: /my/bids
+   statusCode: 200
+   duration: 10ms
+   ip: ::1
+   userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+   requestId: 298e685d-883f-48bd-914e-ef0b802c96e6
+   userId: cmfb5xr9m0002hfrxale598tj
+   contentLength: 1961
+[2025-09-08 13:51:08] 2025-09-08 13:51:08 ℹ️ INFO: API Response
+   method: GET
+   path: /history
+   statusCode: 200
+   duration: 6ms
+   requestId: bdd77029-e5ce-469b-80bd-350ee27fef67
+   userId: cmfb5xr9m0002hfrxale598tj
+   dataSize: 62
+[2025-09-08 13:51:08] 2025-09-08 13:51:08 ℹ️ INFO: Request completed
+   method: GET
+   path: /history
+   statusCode: 200
+   duration: 6ms
+   ip: ::1
+   userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+   requestId: bdd77029-e5ce-469b-80bd-350ee27fef67
+   userId: cmfb5xr9m0002hfrxale598tj
+   contentLength: 62
+[2025-09-08 13:51:08] 2025-09-08 13:51:08 ℹ️ INFO: API Response
+   method: GET
+   path: /my/tasks
+   statusCode: 200
+   duration: 7ms
+   requestId: 01265d09-37ea-4da7-88fc-1f2d3e53a6a2
+   userId: cmfb5xr9m0002hfrxale598tj
+   dataSize: 2741
+[2025-09-08 13:51:08] 2025-09-08 13:51:08 ℹ️ INFO: Request completed
+   method: GET
+   path: /my/tasks
+   statusCode: 200
+   duration: 7ms
+   ip: ::1
+   userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+   requestId: 01265d09-37ea-4da7-88fc-1f2d3e53a6a2
+   userId: cmfb5xr9m0002hfrxale598tj
+   contentLength: 2741
+[2025-09-08 13:51:22] 2025-09-08 13:51:22 ℹ️ INFO: Auth route accessed
+   method: POST
+   path: /logout
+   ip: ::1
+   requestId: 686c993c-9c12-42d7-b1d8-9e8230dbd6f4
+[2025-09-08 13:51:22] 2025-09-08 13:51:22 ℹ️ INFO: API Response
+   method: POST
+   path: /logout
+   statusCode: 200
+   duration: 10ms
+   requestId: 686c993c-9c12-42d7-b1d8-9e8230dbd6f4
+   userId: cmfb5xr9m0002hfrxale598tj
+   dataSize: 31
+[2025-09-08 13:51:22] 2025-09-08 13:51:22 ℹ️ INFO: Request completed
+   method: POST
+   path: /logout
+   statusCode: 200
+   duration: 10ms
+   ip: ::1
+   userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+   requestId: 686c993c-9c12-42d7-b1d8-9e8230dbd6f4
+   userId: cmfb5xr9m0002hfrxale598tj
+   contentLength: 31
+[2025-09-08 13:51:45] 2025-09-08 13:51:45 ℹ️ INFO: Auth route accessed
+   method: POST
+   path: /login
+   ip: ::1
+   requestId: 34b45914-ba05-420f-8ada-a8c1c73c15b9
+[2025-09-08 13:51:45] 2025-09-08 13:51:45 ℹ️ INFO: API Response
+   method: POST
+   path: /login
+   statusCode: 401
+   duration: 17ms
+   requestId: 34b45914-ba05-420f-8ada-a8c1c73c15b9
+   userId: anonymous
+   dataSize: 33
+[2025-09-08 13:51:45] 2025-09-08 13:51:45 ℹ️ INFO: Request completed
+   method: POST
+   path: /login
+   statusCode: 401
+   duration: 17ms
+   ip: ::1
+   userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+   requestId: 34b45914-ba05-420f-8ada-a8c1c73c15b9
+   userId: anonymous
+   contentLength: 33

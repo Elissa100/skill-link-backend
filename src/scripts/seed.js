@@ -13,16 +13,18 @@ async function main() {
   await prisma.task.deleteMany();
   await prisma.user.deleteMany();
 
-  // Create demo users
+  // Create demo users - ALL WITH emailVerifiedAt
   const hashedPassword = await bcrypt.hash('password123', 12);
+  const now = new Date(); // Current timestamp for emailVerifiedAt
 
   const admin = await prisma.user.create({
     data: {
-      email: 'admin@skilllink.dev',
+      email: 'sboel66@gmail.com', // Updated to your email
       password: await bcrypt.hash('Admin123!', 12),
       name: 'Admin User',
       role: 'ADMIN',
-      bio: 'Platform administrator'
+      bio: 'Platform administrator',
+      emailVerifiedAt: now // ✅ VERIFIED
     }
   });
 
@@ -32,7 +34,8 @@ async function main() {
       password: await bcrypt.hash('Client123!', 12),
       name: 'John Client',
       role: 'CLIENT',
-      bio: 'Tech entrepreneur looking for talented developers'
+      bio: 'Tech entrepreneur looking for talented developers',
+      emailVerifiedAt: now // ✅ VERIFIED
     }
   });
 
@@ -44,7 +47,8 @@ async function main() {
       role: 'FREELANCER',
       bio: 'Full-stack developer with 5 years of experience in React and Node.js',
       skills: ['JavaScript', 'React', 'Node.js', 'PostgreSQL', 'AWS'],
-      portfolioLinks: ['https://github.com/sarahdev', 'https://sarahdev.dev']
+      portfolioLinks: ['https://github.com/sarahdev', 'https://sarahdev.dev'],
+      emailVerifiedAt: now // ✅ VERIFIED
     }
   });
 
@@ -56,7 +60,8 @@ async function main() {
       role: 'FREELANCER',
       bio: 'UI/UX Designer specializing in modern web applications',
       skills: ['Figma', 'Adobe XD', 'CSS', 'HTML', 'Design Systems'],
-      portfolioLinks: ['https://dribbble.com/alexdesigner']
+      portfolioLinks: ['https://dribbble.com/alexdesigner'],
+      emailVerifiedAt: now // ✅ VERIFIED
     }
   });
 
@@ -217,7 +222,7 @@ async function main() {
 
   console.log('Database seed completed successfully!');
   console.log('\nDemo accounts:');
-  console.log('Admin: admin@skilllink.dev / Admin123!');
+  console.log('Admin: sboel66@gmail.com / Admin123!'); // ✅ Updated
   console.log('Client: client@skilllink.dev / Client123!');
   console.log('Freelancer: freelancer@skilllink.dev / Freelancer123!');
 }

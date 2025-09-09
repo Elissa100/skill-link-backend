@@ -27,6 +27,11 @@ const { connectRedis } = require('./config/redis');
 const app = express();
 const server = createServer(app);
 
+app.get('/', (req, res) => {
+  res.send('Welcome to Skill Link!');
+});
+
+
 // Socket.IO setup
 const io = new Server(server, {
   cors: {

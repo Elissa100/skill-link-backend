@@ -930,3 +930,484 @@
    requestId: 34b45914-ba05-420f-8ada-a8c1c73c15b9
    userId: anonymous
    contentLength: 33
+[2025-09-09 09:13:41] 2025-09-09 09:13:41 ℹ️ INFO: 🚀 Starting SkillLink server...
+   nodeVersion: v18.20.8
+   platform: linux
+   architecture: x64
+   memory: {
+  "rss": 129011712,
+  "heapTotal": 74850304,
+  "heapUsed": 47945576,
+  "external": 2901709,
+  "arrayBuffers": 121894
+}
+   environment: development
+[2025-09-09 09:13:41] 2025-09-09 09:13:41 ℹ️ INFO: ✅ Redis connection established
+[2025-09-09 09:13:41] 2025-09-09 09:13:41 ℹ️ INFO: 🎯 SkillLink server started successfully
+   port: 3001
+   environment: development
+   corsOrigin: http://localhost:5173
+   docsUrl: http://localhost:3001/docs
+   healthUrl: http://localhost:3001/health
+   timestamp: 2025-09-09T09:13:41.966Z
+[2025-09-09 09:14:02] 2025-09-09 09:14:02 ⚠️ WARN: 404 - Route not found
+   method: GET
+   path: /
+   originalUrl: /favicon.ico
+   ip: ::ffff:127.0.0.1
+   userAgent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+   requestId: 4953dc06-d8d2-4e93-8808-527288cbded1
+   userId: anonymous
+[2025-09-09 09:14:02] 2025-09-09 09:14:02 ℹ️ INFO: API Response
+   method: GET
+   path: /
+   statusCode: 404
+   duration: 3ms
+   requestId: 4953dc06-d8d2-4e93-8808-527288cbded1
+   userId: anonymous
+   dataSize: 106
+[2025-09-09 09:14:02] 2025-09-09 09:14:02 ℹ️ INFO: Request completed
+   method: GET
+   path: /
+   statusCode: 404
+   duration: 3ms
+   ip: ::ffff:127.0.0.1
+   userAgent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+   requestId: 4953dc06-d8d2-4e93-8808-527288cbded1
+   userId: anonymous
+   contentLength: 106
+[2025-09-09 09:25:18] 2025-09-09 09:25:18 ℹ️ INFO: 🚀 Starting SkillLink server...
+   nodeVersion: v18.20.8
+   platform: linux
+   architecture: x64
+   memory: {
+  "rss": 127328256,
+  "heapTotal": 75374592,
+  "heapUsed": 47945568,
+  "external": 2909901,
+  "arrayBuffers": 130086
+}
+   environment: development
+[2025-09-09 09:25:18] 2025-09-09 09:25:18 ℹ️ INFO: ✅ Redis connection established
+[2025-09-09 09:25:18] 2025-09-09 09:25:18 ℹ️ INFO: 🎯 SkillLink server started successfully
+   port: 3001
+   environment: development
+   corsOrigin: http://localhost:5173
+   docsUrl: http://localhost:3001/docs
+   healthUrl: http://localhost:3001/health
+   timestamp: 2025-09-09T09:25:18.924Z
+[2025-09-09 09:25:25] 2025-09-09 09:25:25 ℹ️ INFO: Request completed
+   method: GET
+   path: /
+   statusCode: 200
+   duration: 8ms
+   ip: ::1
+   userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+   requestId: 71d9903f-f70a-48d3-b40e-5106b4c77a4c
+   userId: anonymous
+   contentLength: 3106
+[2025-09-09 09:25:25] 2025-09-09 09:25:25 ℹ️ INFO: Request completed
+   method: GET
+   path: /swagger-ui-init.js
+   statusCode: 200
+   duration: 1ms
+   ip: ::1
+   userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+   requestId: fb6214c4-8125-490f-9835-c2e752aec4b8
+   userId: anonymous
+   contentLength: 25559
+[2025-09-09 09:26:24] 2025-09-09 09:26:24 ℹ️ INFO: Auth route accessed
+   method: POST
+   path: /login
+   ip: ::1
+   requestId: 69b3c0f7-805a-4651-a2e2-3d8164c70a29
+[2025-09-09 09:26:24] 2025-09-09 09:26:24 ℹ️ INFO: API Response
+   method: POST
+   path: /login
+   statusCode: 401
+   duration: 15ms
+   requestId: 69b3c0f7-805a-4651-a2e2-3d8164c70a29
+   userId: anonymous
+   dataSize: 66
+[2025-09-09 09:26:24] 2025-09-09 09:26:24 ℹ️ INFO: Request completed
+   method: POST
+   path: /login
+   statusCode: 401
+   duration: 16ms
+   ip: ::1
+   userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+   requestId: 69b3c0f7-805a-4651-a2e2-3d8164c70a29
+   userId: anonymous
+   contentLength: 66
+[2025-09-09 09:28:38] 2025-09-09 09:28:38 ⚠️ WARN: 404 - Route not found
+   method: GET
+   path: /
+   originalUrl: /auth/login
+   ip: ::ffff:127.0.0.1
+   userAgent: insomnia/11.2.0
+   requestId: 343066ad-b1eb-4f1b-b9be-060fbd823baf
+   userId: anonymous
+[2025-09-09 09:28:38] 2025-09-09 09:28:38 ℹ️ INFO: API Response
+   method: GET
+   path: /
+   statusCode: 404
+   duration: 2ms
+   requestId: 343066ad-b1eb-4f1b-b9be-060fbd823baf
+   userId: anonymous
+   dataSize: 106
+[2025-09-09 09:28:38] 2025-09-09 09:28:38 ℹ️ INFO: Request completed
+   method: GET
+   path: /
+   statusCode: 404
+   duration: 2ms
+   ip: ::ffff:127.0.0.1
+   userAgent: insomnia/11.2.0
+   requestId: 343066ad-b1eb-4f1b-b9be-060fbd823baf
+   userId: anonymous
+   contentLength: 106
+[2025-09-09 09:29:12] 2025-09-09 09:29:12 ⚠️ WARN: 404 - Route not found
+   method: GET
+   path: /
+   originalUrl: /login
+   ip: ::ffff:127.0.0.1
+   userAgent: insomnia/11.2.0
+   requestId: 4ba85723-387e-4f64-8f9f-b00735682a2d
+   userId: anonymous
+[2025-09-09 09:29:12] 2025-09-09 09:29:12 ℹ️ INFO: API Response
+   method: GET
+   path: /
+   statusCode: 404
+   duration: 2ms
+   requestId: 4ba85723-387e-4f64-8f9f-b00735682a2d
+   userId: anonymous
+   dataSize: 106
+[2025-09-09 09:29:12] 2025-09-09 09:29:12 ℹ️ INFO: Request completed
+   method: GET
+   path: /
+   statusCode: 404
+   duration: 3ms
+   ip: ::ffff:127.0.0.1
+   userAgent: insomnia/11.2.0
+   requestId: 4ba85723-387e-4f64-8f9f-b00735682a2d
+   userId: anonymous
+   contentLength: 106
+[2025-09-09 09:30:56] 2025-09-09 09:30:56 ℹ️ INFO: 🚀 Starting SkillLink server...
+   nodeVersion: v18.20.8
+   platform: linux
+   architecture: x64
+   memory: {
+  "rss": 127143936,
+  "heapTotal": 75112448,
+  "heapUsed": 48225840,
+  "external": 2893517,
+  "arrayBuffers": 113702
+}
+   environment: development
+[2025-09-09 09:30:56] 2025-09-09 09:30:56 ℹ️ INFO: ✅ Redis connection established
+[2025-09-09 09:30:56] 2025-09-09 09:30:56 ℹ️ INFO: 🎯 SkillLink server started successfully
+   port: 3001
+   environment: development
+   corsOrigin: http://localhost:5173
+   docsUrl: http://localhost:3001/docs
+   healthUrl: http://localhost:3001/health
+   timestamp: 2025-09-09T09:30:56.869Z
+[2025-09-09 10:16:16] 2025-09-09 10:16:16 ℹ️ INFO: 🚀 Starting SkillLink server...
+   nodeVersion: v18.20.8
+   platform: linux
+   architecture: x64
+   memory: {
+  "rss": 127123456,
+  "heapTotal": 74850304,
+  "heapUsed": 48062040,
+  "external": 2901709,
+  "arrayBuffers": 121894
+}
+   environment: development
+[2025-09-09 10:16:16] 2025-09-09 10:16:16 ℹ️ INFO: ✅ Redis connection established
+[2025-09-09 10:16:16] 2025-09-09 10:16:16 ℹ️ INFO: 🎯 SkillLink server started successfully
+   port: 3001
+   environment: development
+   corsOrigin: http://localhost:5173
+   docsUrl: http://localhost:3001/docs
+   healthUrl: http://localhost:3001/health
+   timestamp: 2025-09-09T10:16:16.223Z
+[2025-09-09 10:16:37] 2025-09-09 10:16:37 ℹ️ INFO: 🚀 Starting SkillLink server...
+   nodeVersion: v18.20.8
+   platform: linux
+   architecture: x64
+   memory: {
+  "rss": 127823872,
+  "heapTotal": 75374592,
+  "heapUsed": 48158736,
+  "external": 2901709,
+  "arrayBuffers": 121894
+}
+   environment: development
+[2025-09-09 10:16:37] 2025-09-09 10:16:37 ℹ️ INFO: ✅ Redis connection established
+[2025-09-09 10:16:37] 2025-09-09 10:16:37 ℹ️ INFO: 🎯 SkillLink server started successfully
+   port: 3001
+   environment: development
+   corsOrigin: http://localhost:5173
+   docsUrl: http://localhost:3001/docs
+   healthUrl: http://localhost:3001/health
+   timestamp: 2025-09-09T10:16:37.027Z
+[2025-09-09 10:16:40] 2025-09-09 10:16:40 ℹ️ INFO: 🚀 Starting SkillLink server...
+   nodeVersion: v18.20.8
+   platform: linux
+   architecture: x64
+   memory: {
+  "rss": 127275008,
+  "heapTotal": 75112448,
+  "heapUsed": 48056016,
+  "external": 2901709,
+  "arrayBuffers": 121894
+}
+   environment: development
+[2025-09-09 10:16:40] 2025-09-09 10:16:40 ℹ️ INFO: ✅ Redis connection established
+[2025-09-09 10:16:40] 2025-09-09 10:16:40 ℹ️ INFO: 🎯 SkillLink server started successfully
+   port: 3001
+   environment: development
+   corsOrigin: http://localhost:5173
+   docsUrl: http://localhost:3001/docs
+   healthUrl: http://localhost:3001/health
+   timestamp: 2025-09-09T10:16:40.613Z
+[2025-09-09 10:18:09] 2025-09-09 10:18:09 ℹ️ INFO: 🚀 Starting SkillLink server...
+   nodeVersion: v18.20.8
+   platform: linux
+   architecture: x64
+   memory: {
+  "rss": 128024576,
+  "heapTotal": 75112448,
+  "heapUsed": 48036704,
+  "external": 2901709,
+  "arrayBuffers": 121894
+}
+   environment: development
+[2025-09-09 10:18:09] 2025-09-09 10:18:09 ℹ️ INFO: ✅ Redis connection established
+[2025-09-09 10:18:09] 2025-09-09 10:18:09 ℹ️ INFO: 🎯 SkillLink server started successfully
+   port: 3001
+   environment: development
+   corsOrigin: http://localhost:5173
+   docsUrl: http://localhost:3001/docs
+   healthUrl: http://localhost:3001/health
+   timestamp: 2025-09-09T10:18:09.699Z
+[2025-09-09 10:18:12] 2025-09-09 10:18:12 ℹ️ INFO: 🚀 Starting SkillLink server...
+   nodeVersion: v18.20.8
+   platform: linux
+   architecture: x64
+   memory: {
+  "rss": 130068480,
+  "heapTotal": 75374592,
+  "heapUsed": 48046160,
+  "external": 2909901,
+  "arrayBuffers": 130086
+}
+   environment: development
+[2025-09-09 10:18:12] 2025-09-09 10:18:12 ℹ️ INFO: ✅ Redis connection established
+[2025-09-09 10:18:12] 2025-09-09 10:18:12 ℹ️ INFO: 🎯 SkillLink server started successfully
+   port: 3001
+   environment: development
+   corsOrigin: http://localhost:5173
+   docsUrl: http://localhost:3001/docs
+   healthUrl: http://localhost:3001/health
+   timestamp: 2025-09-09T10:18:12.130Z
+[2025-09-09 10:18:26] 2025-09-09 10:18:26 ℹ️ INFO: 🚀 Starting SkillLink server...
+   nodeVersion: v18.20.8
+   platform: linux
+   architecture: x64
+   memory: {
+  "rss": 127496192,
+  "heapTotal": 75374592,
+  "heapUsed": 48002232,
+  "external": 2901709,
+  "arrayBuffers": 121894
+}
+   environment: development
+[2025-09-09 10:18:26] 2025-09-09 10:18:26 ℹ️ INFO: ✅ Redis connection established
+[2025-09-09 10:18:26] 2025-09-09 10:18:26 ℹ️ INFO: 🎯 SkillLink server started successfully
+   port: 3001
+   environment: development
+   corsOrigin: http://localhost:5173
+   docsUrl: http://localhost:3001/docs
+   healthUrl: http://localhost:3001/health
+   timestamp: 2025-09-09T10:18:26.213Z
+[2025-09-09 10:48:09] 2025-09-09 10:48:09 ℹ️ INFO: 🚀 Starting SkillLink server...
+   nodeVersion: v18.20.8
+   platform: linux
+   architecture: x64
+   memory: {
+  "rss": 127545344,
+  "heapTotal": 75374592,
+  "heapUsed": 47851672,
+  "external": 2901709,
+  "arrayBuffers": 121894
+}
+   environment: development
+[2025-09-09 10:48:09] 2025-09-09 10:48:09 ℹ️ INFO: ✅ Redis connection established
+[2025-09-09 10:48:09] 2025-09-09 10:48:09 ℹ️ INFO: 🎯 SkillLink server started successfully
+   port: 3001
+   environment: development
+   corsOrigin: http://localhost:5173
+   docsUrl: http://localhost:3001/docs
+   healthUrl: http://localhost:3001/health
+   timestamp: 2025-09-09T10:48:09.617Z
+[2025-09-09 11:00:19] 2025-09-09 11:00:19 ℹ️ INFO: 🚀 Starting SkillLink server...
+   nodeVersion: v18.20.8
+   platform: linux
+   architecture: x64
+   memory: {
+  "rss": 127668224,
+  "heapTotal": 75636736,
+  "heapUsed": 47854768,
+  "external": 2918093,
+  "arrayBuffers": 138278
+}
+   environment: development
+[2025-09-09 11:00:19] 2025-09-09 11:00:19 ℹ️ INFO: ✅ Redis connection established
+[2025-09-09 11:00:19] 2025-09-09 11:00:19 ℹ️ INFO: 🎯 SkillLink server started successfully
+   port: 3001
+   environment: development
+   corsOrigin: http://localhost:5173
+   docsUrl: http://localhost:3001/docs
+   healthUrl: http://localhost:3001/health
+   timestamp: 2025-09-09T11:00:19.540Z
+[2025-09-09 11:00:24] 2025-09-09 11:00:24 ℹ️ INFO: Request completed
+   method: GET
+   path: /
+   statusCode: 200
+   duration: 6ms
+   ip: ::1
+   userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+   requestId: e658a0b3-dbfc-4744-a3ea-818bdbe7e186
+   userId: anonymous
+   contentLength: 3106
+[2025-09-09 11:00:24] 2025-09-09 11:00:24 ℹ️ INFO: Request completed
+   method: GET
+   path: /swagger-ui-init.js
+   statusCode: 200
+   duration: 1ms
+   ip: ::1
+   userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+   requestId: f4754ecb-bcfc-4a18-9630-0de70bafb1e5
+   userId: anonymous
+   contentLength: 25559
+[2025-09-09 11:05:54] 2025-09-09 11:05:54 ℹ️ INFO: 🚀 Starting SkillLink server...
+   nodeVersion: v18.20.8
+   platform: linux
+   architecture: x64
+   memory: {
+  "rss": 128442368,
+  "heapTotal": 75112448,
+  "heapUsed": 48013928,
+  "external": 2909901,
+  "arrayBuffers": 130086
+}
+   environment: development
+[2025-09-09 11:05:54] 2025-09-09 11:05:54 ℹ️ INFO: ✅ Redis connection established
+[2025-09-09 11:05:54] 2025-09-09 11:05:54 ℹ️ INFO: 🎯 SkillLink server started successfully
+   port: 3001
+   environment: development
+   corsOrigin: http://localhost:5173
+   docsUrl: http://localhost:3001/docs
+   healthUrl: http://localhost:3001/health
+   timestamp: 2025-09-09T11:05:54.058Z
+[2025-09-09 11:05:55] 2025-09-09 11:05:55 ℹ️ INFO: 🚀 Starting SkillLink server...
+   nodeVersion: v18.20.8
+   platform: linux
+   architecture: x64
+   memory: {
+  "rss": 122761216,
+  "heapTotal": 71901184,
+  "heapUsed": 46954832,
+  "external": 1737575,
+  "arrayBuffers": 523376
+}
+   environment: development
+[2025-09-09 11:05:55] 2025-09-09 11:05:55 ℹ️ INFO: ✅ Redis connection established
+[2025-09-09 11:05:55] 2025-09-09 11:05:55 ℹ️ INFO: 🎯 SkillLink server started successfully
+   port: 3001
+   environment: development
+   corsOrigin: http://localhost:5173
+   docsUrl: http://localhost:3001/docs
+   healthUrl: http://localhost:3001/health
+   timestamp: 2025-09-09T11:05:55.523Z
+[2025-09-09 11:06:01] 2025-09-09 11:06:01 ℹ️ INFO: 🚀 Starting SkillLink server...
+   nodeVersion: v18.20.8
+   platform: linux
+   architecture: x64
+   memory: {
+  "rss": 122511360,
+  "heapTotal": 72163328,
+  "heapUsed": 46691536,
+  "external": 1591957,
+  "arrayBuffers": 377758
+}
+   environment: development
+[2025-09-09 11:06:01] 2025-09-09 11:06:01 ℹ️ INFO: ✅ Redis connection established
+[2025-09-09 11:06:01] 2025-09-09 11:06:01 ℹ️ INFO: 🎯 SkillLink server started successfully
+   port: 3001
+   environment: development
+   corsOrigin: http://localhost:5173
+   docsUrl: http://localhost:3001/docs
+   healthUrl: http://localhost:3001/health
+   timestamp: 2025-09-09T11:06:01.477Z
+[2025-09-09 11:06:05] 2025-09-09 11:06:05 ℹ️ INFO: 🚀 Starting SkillLink server...
+   nodeVersion: v18.20.8
+   platform: linux
+   architecture: x64
+   memory: {
+  "rss": 121806848,
+  "heapTotal": 71639040,
+  "heapUsed": 47022912,
+  "external": 1737575,
+  "arrayBuffers": 523376
+}
+   environment: development
+[2025-09-09 11:06:05] 2025-09-09 11:06:05 ℹ️ INFO: ✅ Redis connection established
+[2025-09-09 11:06:05] 2025-09-09 11:06:05 ℹ️ INFO: 🎯 SkillLink server started successfully
+   port: 3001
+   environment: development
+   corsOrigin: http://localhost:5173
+   docsUrl: http://localhost:3001/docs
+   healthUrl: http://localhost:3001/health
+   timestamp: 2025-09-09T11:06:05.608Z
+[2025-09-09 11:06:06] 2025-09-09 11:06:06 ℹ️ INFO: 🚀 Starting SkillLink server...
+   nodeVersion: v18.20.8
+   platform: linux
+   architecture: x64
+   memory: {
+  "rss": 122748928,
+  "heapTotal": 71639040,
+  "heapUsed": 46827592,
+  "external": 1737575,
+  "arrayBuffers": 523376
+}
+   environment: development
+[2025-09-09 11:06:06] 2025-09-09 11:06:06 ℹ️ INFO: ✅ Redis connection established
+[2025-09-09 11:06:06] 2025-09-09 11:06:06 ℹ️ INFO: 🎯 SkillLink server started successfully
+   port: 3001
+   environment: development
+   corsOrigin: http://localhost:5173
+   docsUrl: http://localhost:3001/docs
+   healthUrl: http://localhost:3001/health
+   timestamp: 2025-09-09T11:06:06.514Z
+[2025-09-09 11:06:35] 2025-09-09 11:06:35 ℹ️ INFO: 🚀 Starting SkillLink server...
+   nodeVersion: v18.20.8
+   platform: linux
+   architecture: x64
+   memory: {
+  "rss": 122286080,
+  "heapTotal": 71639040,
+  "heapUsed": 47262264,
+  "external": 1774653,
+  "arrayBuffers": 560454
+}
+   environment: development
+[2025-09-09 11:06:35] 2025-09-09 11:06:35 ℹ️ INFO: ✅ Redis connection established
+[2025-09-09 11:06:35] 2025-09-09 11:06:35 ℹ️ INFO: 🎯 SkillLink server started successfully
+   port: 3001
+   environment: development
+   corsOrigin: http://localhost:5173
+   docsUrl: http://localhost:3001/docs
+   healthUrl: http://localhost:3001/health
+   timestamp: 2025-09-09T11:06:35.734Z

@@ -1411,3 +1411,49 @@
    docsUrl: http://localhost:3001/docs
    healthUrl: http://localhost:3001/health
    timestamp: 2025-09-09T11:06:35.734Z
+[2025-09-09 11:16:16] 2025-09-09 11:16:16 ℹ️ INFO: 🚀 Starting SkillLink server...
+   nodeVersion: v18.20.8
+   platform: linux
+   architecture: x64
+   memory: {
+  "rss": 121856000,
+  "heapTotal": 71376896,
+  "heapUsed": 47302336,
+  "external": 1774653,
+  "arrayBuffers": 560454
+}
+   environment: development
+[2025-09-09 11:16:16] 2025-09-09 11:16:16 ℹ️ INFO: ✅ Redis connection established
+[2025-09-09 11:16:16] 2025-09-09 11:16:16 ℹ️ INFO: 🎯 SkillLink server started successfully
+   port: 3001
+   environment: development
+   corsOrigin: http://localhost:5173
+   docsUrl: http://localhost:3001/docs
+   healthUrl: http://localhost:3001/health
+   timestamp: 2025-09-09T11:16:16.116Z
+[2025-09-09 11:16:26] 2025-09-09 11:16:26 ⚠️ WARN: 404 - Route not found
+   method: GET
+   path: /
+   originalUrl: /favicon.ico
+   ip: ::ffff:127.0.0.1
+   userAgent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+   requestId: 6664f661-73c3-45ab-851b-23a2ddd36a5d
+   userId: anonymous
+[2025-09-09 11:16:26] 2025-09-09 11:16:26 ℹ️ INFO: API Response
+   method: GET
+   path: /
+   statusCode: 404
+   duration: 6ms
+   requestId: 6664f661-73c3-45ab-851b-23a2ddd36a5d
+   userId: anonymous
+   dataSize: 106
+[2025-09-09 11:16:26] 2025-09-09 11:16:26 ℹ️ INFO: Request completed
+   method: GET
+   path: /
+   statusCode: 404
+   duration: 7ms
+   ip: ::ffff:127.0.0.1
+   userAgent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+   requestId: 6664f661-73c3-45ab-851b-23a2ddd36a5d
+   userId: anonymous
+   contentLength: 106
